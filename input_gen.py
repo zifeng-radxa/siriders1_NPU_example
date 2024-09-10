@@ -153,4 +153,4 @@ if __name__ == '__main__':
     mean = [127.5, 127.5, 127.5]
     var = [1.0, 1.0, 1.0]
     generate_npy_data(args.img_path,normal,mean,var,(224,224,3),bNHWC=False)
-    print('------generate calibration data end-------')
+    print('------generate input file end-------')
